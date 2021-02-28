@@ -1,0 +1,45 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+166
+" SOFT-SUM V 1.0                                              Maker: Daniel Enr Nuñez Niño                            this sofware calculate a sum by threre numbers "
+4
+1
+22
+"input the 1º number" 
+5
+1
+7
+Number1
+4
+1
+18
+"Input 2º  number"
+5
+1
+7
+Number2
+4
+1
+17
+"Input 3º number"
+5
+1
+7
+Number3
+6
+1
+3
+sum
+23
+Number1+Number2+Number3
+4
+1
+19
+"la suma es : ",sum
+1
