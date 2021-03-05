@@ -1,0 +1,42 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+127
+"SEMESTERGRADESSOFT
+Maker: Daniel Nuñez
+This software calculates the semester final score acoording to the exam scores typed"
+4
+1
+35
+"please type the 4th exam´s scores"
+5
+1
+38
+v_score1, v_score2, v_score3, v_score4
+7
+0
+1
+108
+v_score1<0 or v_score2<0 or v_score3<0 or v_score4<0 or v_score1>5 or v_score2>5 or v_score3>5 or v_score4>5
+6
+1
+13
+v_final_score
+61
+(v_score1*0.2)+(v_score2*0.25)+(v_score3*0.25)+(v_score4*0.3)
+4
+1
+48
+"your semester final score is: " , v_final_score
+13
+4
+1
+63
+"ERR:invalid number typed_please type a number between 0 and 5"
+13
+1
