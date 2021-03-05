@@ -1,0 +1,65 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+185
+"SOFTPAYPOINT V1.0__
+MAKER: Daniel Nuñez__This software is used for a point of payment of four products obtaining the calculation of the total plus 19% /VAT __ Write the first product:"
+5
+1
+11
+V_Product_1
+4
+1
+25
+"Type the second product"
+5
+1
+11
+V_Product_2
+4
+1
+24
+"Type the third product"
+5
+1
+11
+V_Product_3
+4
+1
+25
+"Type the fourth product"
+5
+1
+11
+V_Product_4
+7
+0
+1
+71
+V_Product_1 < 0 OR V_Product_2< 0 OR V_Product_3 < 0 OR V_Product_4 < 0
+6
+2
+5
+V_Sum
+47
+V_Product_1+V_Product_2+V_Product_3+V_Product_4
+7
+V_Total
+10
+V_sum*0.19
+4
+1
+240
+"The first product is: ",  V_Product_1, "   The second product is:  ",  V_Product_2,"   The third product is:   ",   V_Product_3,"    The fourth product is:   ",  V_Product_4,"    The iva is :19%","   The total value to pay is:   ", V_Total
+13
+4
+1
+40
+" ERR: One of this values is incorrect" 
+13
+1
