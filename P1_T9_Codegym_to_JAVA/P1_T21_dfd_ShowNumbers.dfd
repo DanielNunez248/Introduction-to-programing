@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+72
+"Softshownumber V1.0
+Maker: Daniel Nuñez
+This software show N numbers"
+4
+4
+1
+31
+"type /input the total numbers"
+5
+1
+15
+v_total_numbers
+7
+0
+1
+18
+v_total_numbers<=0
+8
+1
+1
+i
+1
+1
+1
+1
+15
+v_total_numbers
+1
+1
+1
+4
+1
+25
+"The number cycle is", i 
+10
+13
+4
+1
+46
+"ERR: this number should be greater than zero"
+13
+1
