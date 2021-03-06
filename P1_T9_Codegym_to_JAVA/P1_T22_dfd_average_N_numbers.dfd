@@ -6,10 +6,10 @@
 0
 4
 1
-114
+113
 "SOFT_SUM_AVERAGE V1.0
 Maker: Daniel Nuñez
-Thiis software calculate the summatory and the average for N numbers"
+This software calculate the summatory and the average for N numbers"
 4
 1
 32
@@ -48,8 +48,8 @@ v_total_numbers
 1
 4
 1
-28
-"input / type the number", i
+29
+"input / type the number ", i
 5
 1
 8
@@ -60,6 +60,7 @@ v_number
 v_sum
 16
 v_sum + v_number
+10
 6
 1
 9
@@ -68,13 +69,12 @@ v_average
 v_sum / v_total_numbers
 4
 1
-44
-"for", v_total_number, "the sum is", v_sum, 
-10
+91
+" for ", v_total_numbers, " numbers the sum is ", v_sum , " and the average is ", v_average
 13
 4
 1
-25
-ERR: the total numbers <0
+37
+"ERR: the total numbers shold be > 0"
 13
 1
