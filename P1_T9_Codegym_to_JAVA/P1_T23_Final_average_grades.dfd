@@ -1,0 +1,84 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+127
+"SOFT_SUM_AVERAGE V1.0
+Maker: Daniel Nuñez
+Description: This software calculate the average the final grades for N students "
+4
+1
+33
+"input / type the total students"
+5
+1
+16
+v_total_students
+7
+0
+1
+20
+v_total_students <=0
+6
+2
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+8
+1
+1
+i
+1
+1
+1
+1
+16
+v_total_students
+1
+1
+1
+4
+1
+64
+"input / type the grade 1 - grade 2 and grade 3 for student ", i
+5
+1
+28
+v_grade1, v_grade2, v_grade3
+6
+2
+13
+v_final_grade
+42
+v_grade1*0.2 + v_grade2*0.3 + v_grade3*0.5
+5
+v_sum
+21
+v_sum + v_final_grade
+10
+6
+1
+9
+v_average
+24
+v_sum / v_total_students
+4
+1
+66
+" for ", v_total_students , " students the average is ", v_avergae
+13
+4
+1
+41
+"ERR: the total students should be > 0 " 
+13
+1
