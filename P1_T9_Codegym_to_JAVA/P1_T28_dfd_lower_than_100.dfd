@@ -1,0 +1,79 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+125
+" SOFTLOWER V1.0
+Maker: Daniel Nuñez
+Description: this software calculate the sum and average for numbers greater than 100"
+6
+3
+5
+v_sum
+1
+0
+9
+v_average
+1
+0
+7
+v_count
+1
+0
+4
+1
+23
+"input / type a number"
+5
+1
+8
+v_number
+9
+1
+12
+v_number>100
+6
+2
+5
+v_sum
+16
+v_sum + v_number
+7
+v_count
+11
+v_count + 1
+4
+1
+23
+"input / type a number"
+5
+1
+8
+v_number
+11
+7
+0
+1
+11
+v_count = 0
+6
+1
+9
+v_average
+6
+v_sum 
+4
+1
+86
+" the sum is ", v_sum, " and the average is ", v_average, " for ", v_count, " numbers"
+13
+4
+1
+42
+"ERR: The total numbers over 100 are zero"
+13
+1
