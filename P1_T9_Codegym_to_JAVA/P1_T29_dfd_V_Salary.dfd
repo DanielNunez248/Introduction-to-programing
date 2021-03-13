@@ -1,0 +1,130 @@
+ Dfd (c)
+1
+1
+3
+0
+0
+4
+1
+112
+"SOFTSALARY V1.0
+Maker: Daniel Nuñez
+Description: This software calculate monthly payroll for many employees "
+12
+1
+17
+P_TOTAL_EMPLOYEES
+1
+17
+v_total_employees
+6
+3
+9
+v_average
+1
+0
+16
+v_total_salaries
+1
+0
+14
+v_total_health
+1
+0
+6
+3
+15
+v_total_pension
+1
+0
+15
+v_total_payroll
+1
+0
+6
+v_SMLV
+6
+908526
+8
+1
+1
+i
+1
+1
+1
+1
+17
+v_total_employees
+1
+1
+1
+12
+1
+17
+p_salary_employee
+1
+8
+v_salary
+10
+1
+2
+1
+17
+P_TOTAL_EMPLOYEES
+1
+17
+v_total_employees
+1
+42
+this sub-program returns V_TOTAL_EMPLOYEES
+4
+1
+34
+"input / type the total employees"
+5
+1
+17
+v_total_employees
+9
+1
+21
+v_total_employees <=0
+4
+1
+90
+"ERR: the total employees should be grather than zero--> input again the total employees "
+5
+1
+17
+v_total_employees
+11
+3
+2
+1
+17
+p_salary_employee
+1
+8
+v_salary
+1
+41
+this sub-program the salary by a employee
+6
+3
+14
+v_gross_salary
+17
+1+ random(200000)
+10
+v_work_day
+13
+1+ random(30)
+8
+v_salary
+33
+(v_gross_salary/30) * v_work_days
+4
+1
+109
+"the gross Salary :", v_gross_salary, " and the work days :", v_work_days, " and total salary is ", v_salary 
+3
