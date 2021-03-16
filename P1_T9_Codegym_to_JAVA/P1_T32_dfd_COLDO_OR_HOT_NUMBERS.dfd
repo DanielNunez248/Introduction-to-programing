@@ -1,0 +1,129 @@
+ Dfd (c)
+1
+1
+2
+0
+0
+4
+1
+131
+"COOLHOTNUMBER V1.0
+Maker:Daniel Nuñez
+Description: This MhaGame is simulate HOT and COOL in number - you have 5 tries (intents)"
+6
+3
+12
+v_sys_number
+16
+1 + random (100)
+7
+intents
+1
+5
+3
+win
+1
+0
+12
+1
+14
+P_input_number
+1
+13
+v_user_number
+9
+1
+45
+v_sys_number != v_user_number AND v_intents>0
+6
+2
+9
+v_intents
+12
+v_intents -1
+5
+v_dif
+28
+v_sys_number - v_user_number
+7
+0
+1
+14
+abs(v_dif) <=5
+7
+0
+1
+9
+v_dif > 0
+4
+1
+9
+"cold up"
+13
+4
+1
+12
+"Cold down "
+13
+13
+4
+1
+17
+"You are hoooott"
+13
+12
+1
+14
+P_input_number
+1
+13
+v_user_number
+11
+7
+0
+1
+13
+v_intents > 0
+4
+1
+60
+" SORRY -> you lose -> the secial number is", v_sys_num,ber 
+13
+4
+1
+18
+"CONGRATULATIONS" 
+13
+1
+2
+1
+14
+P_input_number
+1
+13
+v_user_number
+1
+39
+this sub-program return the user valide
+4
+1
+40
+"input/type a number beetween 0 and 100"
+5
+1
+13
+v_user_number
+9
+1
+36
+v_user_number<0 or v_user_number>100
+4
+1
+81
+"ERR: your number should be inside beetween 1 and 100 - input again your number "
+5
+1
+13
+v_user_number
+11
+3
