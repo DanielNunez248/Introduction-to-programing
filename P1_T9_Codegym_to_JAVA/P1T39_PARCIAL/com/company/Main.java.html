@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #808080;}
+.s3 { color: #6897bb;}
+.s4 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com.company</span><span class="s0">;</span>
+<span class="s2">//AUTHOR: DANIEL NUÑEZ</span>
+<span class="s2">//DATE: 26/03/2021</span>
+<span class="s2">//DESCRIPTION: Parcial finish term</span>
+ <span class="s0">import </span><span class="s1">java.util.Scanner</span><span class="s0">;</span>
+ <span class="s0">public class </span><span class="s1">Main{</span>
+     <span class="s0">public static void </span><span class="s1">main (String[] args){</span>
+         <span class="s1">p_show_info_program()</span><span class="s0">;</span>
+         <span class="s0">double </span><span class="s1">v_sum=</span><span class="s3">0</span><span class="s0">;</span>
+         <span class="s0">for </span><span class="s1">(</span><span class="s0">int </span><span class="s1">i=</span><span class="s3">1</span><span class="s0">; </span><span class="s1">i&lt;=</span><span class="s3">5</span><span class="s0">; </span><span class="s1">i=i+</span><span class="s3">1</span><span class="s1">){</span>
+             <span class="s1">v_sum=v_sum+p_height()</span><span class="s0">;</span>
+         <span class="s1">}</span>
+         <span class="s1">System.out.println (v_sum)</span><span class="s0">;</span>
+         <span class="s1">System.out.println(</span><span class="s4">&quot;the averague height is&quot;</span><span class="s1">+(v_sum)/</span><span class="s3">5</span><span class="s1">)</span><span class="s0">;</span>
+
+     <span class="s1">}</span>
+     <span class="s0">public static void </span><span class="s1">p_show_info_program(){</span>
+         <span class="s2">//DESCRIPTION: this method show info program</span>
+         <span class="s1">System.out.println(</span><span class="s4">&quot;____________________________&quot;</span><span class="s1">)</span><span class="s0">;</span>
+         <span class="s1">System.out.println(</span><span class="s4">&quot;     averague heigth v1.0   &quot;</span><span class="s1">)</span><span class="s0">;</span>
+         <span class="s1">System.out.println(</span><span class="s4">&quot;      Maker:Daniel Nuñez    &quot;</span><span class="s1">)</span><span class="s0">;</span>
+         <span class="s1">System.out.println(</span><span class="s4">&quot;      Date: 2021/March/26   &quot;</span><span class="s1">)</span><span class="s0">;</span>
+         <span class="s1">System.out.println(</span><span class="s4">&quot;____________________________&quot;</span><span class="s1">)</span><span class="s0">;</span>
+
+     <span class="s1">}</span>
+     <span class="s0">public static int </span><span class="s1">p_height () {</span>
+         <span class="s2">//DESCRIPTION: this methodd return the heigh of the childrens</span>
+         <span class="s1">Scanner keyboard = </span><span class="s0">new </span><span class="s1">Scanner (System.in)</span><span class="s0">;</span>
+         <span class="s1">System.out.println(</span><span class="s4">&quot;input the heigth of children (cm)&quot;</span><span class="s1">)</span><span class="s0">;</span>
+         <span class="s0">int </span><span class="s1">p_height = keyboard.nextInt()</span><span class="s0">;</span>
+         <span class="s0">while </span><span class="s1">(p_height &lt; </span><span class="s3">50 </span><span class="s1">|| p_height &gt; </span><span class="s3">200</span><span class="s1">)</span>
+         <span class="s1">{</span>
+             <span class="s1">System.err.println(</span><span class="s4">&quot;ERR: the height cannot be more than 200 cm or less than 50 cm &quot;</span><span class="s1">)</span><span class="s0">;</span>
+             <span class="s1">p_height= keyboard.nextInt()</span><span class="s0">;</span>
+         <span class="s1">}</span>
+         <span class="s0">return </span><span class="s1">p_height</span><span class="s0">;</span>
+     <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
